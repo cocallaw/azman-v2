@@ -35,7 +35,7 @@ namespace azman_v2
                 log.LogTrace($"subStatus: {alert.data.context.activityLog.subStatus}");
                 return new OkResult(); // return 200, we're done here since it hasn't succeeded yet
             }
-            FloridaManBreaks.Code; 
+
             log.LogTrace($"{alert.data.context.activityLog.resourceGroupName}");
 
             // handles queueing up new resource groups to be tagged
