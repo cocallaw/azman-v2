@@ -5,7 +5,7 @@ on:
 
 # CONFIGURATION
 # For help, go to https://github.com/Azure/Actions
-#
+# change test 
 # 1. Set up the following secrets in your repository:
 #   AZURE_RBAC_CREDENTIALS
 #
